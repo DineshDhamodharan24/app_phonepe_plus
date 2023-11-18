@@ -501,7 +501,7 @@ if selected == "My-Profile":
     with col1:
         st.write(" ")
         st.write(" ")
-        st.subheader(":white[Phone Pulse: ]",divider='rainbow')
+        st.subheader(":white[Phone Pulse: ]")
         st.markdown("""
                     <div style="text-align: justify; font-size: 30px;">
                         <h3 style="color: purple;">The objective of this project is to:</h3>
