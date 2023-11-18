@@ -434,7 +434,7 @@ if selected == "Explore Data":
 
     #  ------------    -------------------------------
     if Type == "Users":
-        df_user = pd.read_csv('Map_user_data.csv')
+        df_user = pd.read_csv('Map_User_data.csv')
         df_state_names = pd.read_csv('state_names.csv')
 
             # Overall State Data - User App Opening Frequency
