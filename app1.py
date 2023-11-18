@@ -204,7 +204,7 @@ if selected == "Top Charts":
                 fig.update_layout(xaxis_title='Total User Count', yaxis_title='User Brand')
                 st.plotly_chart(fig, use_container_width=True)
         with col2:
-            df_user = pd.read_csv('Map_user_data.csv')
+            df_user = pd.read_csv('Map_User_data.csv')
 
             # Filter data based on selected Year and Quarter
             filtered_user_df = df_user[(df_user['Year'] == int(Year)) & (df_user['Quarter'] == int(Quarter))]
@@ -265,7 +265,7 @@ if selected == "Top Charts":
             st.plotly_chart(fig_top_user_pie, use_container_width=True)
                     
         with col4:
-            df_map_user = pd.read_csv('Map_user_data.csv')
+            df_map_user = pd.read_csv('Map_User_data.csv')
 
             # Filter data based on selected Year and Quarter
             filtered_map_user_df = df_map_user[(df_map_user['Year'] == int(Year)) & (df_map_user['Quarter'] == int(Quarter))]
