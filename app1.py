@@ -518,7 +518,7 @@ if selected == "My-Profile":
         st.write(" ")
         st.write(" ")
         st.write(" ")
-        st.markdown("### :violet[My Project GitHub link] ⬇️")
+        st.markdown("### :violet[GitHub link] ⬇️")
         github_url = "https://github.com/DineshDhamodharan24/Phonepe-Pulse-Data-Visualization-and-Exploration"
         button_color = "#781734"
         # Create a button with a hyperlink
@@ -526,7 +526,7 @@ if selected == "My-Profile":
         st.markdown(button_html, unsafe_allow_html=True)
         st.write(" ")
         st.write(" ")
-        st.markdown("### :violet[My Linkdin] ⬇️")
+        st.markdown("### :violet[Linkdin Profile] ⬇️")
         Linkdin_url= "https://www.linkedin.com/in/dinesh-dhamodharan-2bbb9722b/"
         button_color = "#781734"
         button_html = f'<a href="{Linkdin_url}" target="_blank"><button style="font-size: 16px; background-color: {button_color}; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;">My Linkdin profile</button></a>'
